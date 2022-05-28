@@ -1,7 +1,8 @@
 :root {
     --color-magenta: hsl(300, 43%, 22%);
     --color-white: hsl(0, 0%, 100%);
-    --family-font: [League Spartan](https://fonts.google.com/specimen/League+Spartan)
+    --family-font: [League Spartan](https://fonts.google.com/specimen/League+Spartan);
+    --color-pink: hsl(333, 80%, 67%);
 }
 
 body {
@@ -15,7 +16,12 @@ body {
 }
 
 h2 {
-    text-decoration: var(--color-white);
+    color: var(--color-white);
+}
+
+h3 {
+    color: var(--color-pink);
+
 }
 h1.container {
     color: var(--color-magenta);
@@ -49,4 +55,8 @@ li {
     border: 1px solid rgb(53, 3, 53);
     width:30%;
     height:10%;
+}
+
+img {
+    border-radius: 50%;
 }
