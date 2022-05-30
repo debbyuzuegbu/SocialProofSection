@@ -128,7 +128,7 @@ body {
     background-image: url(./images/bg-pattern-bottom-desktop.svg);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .top h1 {
         font-size: 2rem;
         margin-top: 1rem;
